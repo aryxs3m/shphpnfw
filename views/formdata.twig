@@ -1,0 +1,18 @@
+{% extends "layouts/app.twig" %}
+
+{% block content %}
+    <h1 class="mt-5 display-1">Form adatok</h1>
+    <p class="lead">Az előbb küldött űrlap adatai:</p>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Név: {{ data.name }}</li>
+        <li class="list-group-item">E-mail: {{ data.email }}</li>
+    </ul>
+
+    <p class="alert alert-info">
+        Az elküldött adatok bekerültek a <code>form</code> MySQL táblába is.
+    </p>
+
+    <a href="/" class="btn btn-primary btn-sm mt-1">Vissza</a>
+
+{% endblock %}

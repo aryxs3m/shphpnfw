@@ -1,0 +1,25 @@
+{
+    "name": "aryx/shphpnfw",
+    "description": "Micro PHP framework for fun",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aryx",
+            "email": "aryx@pvga.hu"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0",
+        "vlucas/phpdotenv": "^5.2",
+        "clancats/hydrahon": "^1.1",
+      "ext-pdo": "*",
+        "filp/whoops": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "qphp\\system\\" : "system/",
+            "qphp\\controllers\\" : "controllers/"
+        }
+    }
+}
