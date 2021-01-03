@@ -21,7 +21,7 @@ shPHPnfw (shitty PHP "not framework") is a shitty PHP framework, that is not a f
 | Function                           | Description                |
 |------------------------------------|----------------------------|
 | env('PARAM_NAME', 'Default Value') | Read .env variables        |
-| dd($variable)                      | var_dump() with <pre>      |
+| dd($variable)                      | var_dump() with `<pre>`    |
 | db()                               | Get database query builder |
 
 ## Used packages
